@@ -4,11 +4,6 @@
 The Markdown to HTML Converter is a C++ application that converts Markdown
 files (.md) into properly formatted HTML files (.html).
 
-It reads Markdown syntax from an input file, parses the content, and generates
-an HTML document that can be opened in a web browser.
-The project demonstrates Object-Oriented Programming concepts, file handling,
-string manipulation, and state machine design.
-
 ## 2. Objectives
 
 - Convert Markdown files into HTML documents.
@@ -31,14 +26,7 @@ string manipulation, and state machine design.
 - File input and output
 - Exception handling
 
-## 4. Technologies Used
-
-- Programming Language: C++
-- File Handling: ifstream and ofstream
-- Compiler: GCC (g++)
-- Concepts: OOP, Templates, STL, and Exception Handling
-
-## 5. Project Structure
+## 4. Project Structure
 
 MarkdownToHTML/
 │
@@ -62,34 +50,11 @@ MarkdownToHTML/
     ├── index.html
     ├── about.html
     └── contact.html
-## 6. Object-Oriented Programming Concepts
+## 5. Object-Oriented Programming Concepts
 
 ### Classes and Objects,Encapsulation, Inheritance,Polymorphism ,Templates ,Exception Handling ,Operator Overloading ,Memory Management ,State Machine ,File Handling
 
-## 7. Installation and Execution
-
-### Step 1: Install the Compiler
-
-Install GCC if it is not already available.
-
-On Ubuntu:
-
-    sudo apt update
-    sudo apt install g++
-
-### Step 2: Compile the Program
-
-Open a terminal in the project directory and execute:
-
-    g++ -std=c++14 main.cpp MarkdownParser.cpp HTMLDocument.cpp FileHandler.cpp -o converter
-
-### Step 3: Run the Program
-
-    ./converter
-
-The program reads input.md and generates output.html.
-
-## 8. Sample Input
+## 6. Sample Input
 
 Create a file named input.md:
 
@@ -109,7 +74,7 @@ Create a file named input.md:
 
     Visit [Google](https://www.google.com).
 
-## 9. Sample Output
+## 7. Sample Output
 
 The generated output.html contains a complete HTML document.
 
@@ -135,7 +100,7 @@ For example:
 
 The HTML file can be opened in any modern web browser.
 
-## 10. Error Handling
+## 8. Error Handling
 
 The application handles errors such as:
 
@@ -147,7 +112,7 @@ The application handles errors such as:
 Exceptions are caught and displayed as error messages.
 
 
-## 11. Conclusion
+## 9. Conclusion
 
 The Markdown to HTML Converter demonstrates how C++ can be used to build
 a file-processing application using Object-Oriented Programming.
